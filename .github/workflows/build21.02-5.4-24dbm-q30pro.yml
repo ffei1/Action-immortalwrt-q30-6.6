@@ -86,6 +86,7 @@ jobs:
       run: |
         cd openwrt
         cp -f $GITHUB_WORKSPACE/2102-5.4-24dbm/mt79xx_20250408-705eb4_eeprom.tar.xz dl/mt79xx_20250408-705eb4.tar.xz
+        rm package/mtk/drivers/mt_wifi/patches-7673/001-eeprom-flash-api.patch
         
     - name: Download package
       id: package
