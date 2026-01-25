@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Build immortalwrt21.02-5.4 24dbm JCG Q30Pro
+name: Build immortalwrt21.02-5.4 24dbm 7.6.7.2 JCG Q30Pro
 
 on:
   repository_dispatch:
